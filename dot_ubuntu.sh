@@ -11,7 +11,7 @@ sudo apt-get install -y zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"  # oh-my-zsh
 
 # Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh install_ohmyzsh.sh
 sudo chsh -s /bin/zsh "$USER"
 
 # Install oh-my-zsh plugins
