@@ -12,6 +12,7 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo chsh -s /bin/zsh "$USER"
 
 # Install oh-my-zsh plugins
 ## zsh-autosuggstions
