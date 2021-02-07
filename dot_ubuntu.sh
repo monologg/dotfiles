@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Basic Setting
 sudo apt-get update
 sudo apt-get -y upgrade
@@ -8,11 +6,10 @@ sudo apt -y autoremove
 
 # Install zsh
 sudo apt-get install -y zsh
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"  # oh-my-zsh
+sudo chsh -s /bin/zsh "$USER"
 
 # Install oh-my-zsh
-sh install_ohmyzsh.sh
-sudo chsh -s /bin/zsh "$USER"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # Install oh-my-zsh plugins
 ## zsh-autosuggstions

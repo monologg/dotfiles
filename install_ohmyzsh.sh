@@ -286,7 +286,7 @@ EOF
 
   setup_ohmyzsh
   setup_zshrc
-  # setup_shell
+  setup_shell
 
   printf "$GREEN"
   cat <<'EOF'
