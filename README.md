@@ -1,7 +1,7 @@
 # dotfiles
 
 ```bash
-$ bash dot_ubuntu.sh
+$ sh dot_ubuntu.sh
 ```
 
 ## Reference
