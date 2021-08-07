@@ -106,4 +106,6 @@ export PYTHONIOENCODING=UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+
+# Personal NAS
+alias nas='aws --endpoint-url https://minio.monologg.synology.me --region ap-northeast-2 s3'
