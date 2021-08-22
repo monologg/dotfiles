@@ -1,5 +1,4 @@
 # Basic Setting
-sudo dpkg --configure -a
 sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get install -y awscli python3-pip tmux fonts-powerline
