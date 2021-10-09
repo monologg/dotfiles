@@ -37,6 +37,9 @@ ln -s -f .tmux/.tmux.conf
 git config --global user.email "adieujw@gmail.com"
 git config --global user.name "monologg"
 
+# vscode as git commit editor
+git config --global core.editor "code --wait"
+
 # github lg alias
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
