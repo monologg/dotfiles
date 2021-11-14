@@ -1,6 +1,6 @@
 # Basic Setting
-sudo apt-get update
-sudo apt-get -y upgrade
+# sudo apt-get update
+# sudo apt-get -y upgrade
 sudo apt-get install -y awscli python3-pip tmux fonts-powerline
 sudo apt -y autoremove
 
