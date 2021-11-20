@@ -25,10 +25,10 @@ fi
 ln -s ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/spaceship-prompt/spaceship.zsh-theme ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/spaceship.zsh-theme
 
 # Copy .zshrc
-cp .zshrc ~/.zshrc
+cp -rf .zshrc ~/.zshrc
 
 # Copy .tmux.conf.local
-cp .tmux.conf.local ~/.tmux.conf.local
+cp -rf .tmux.conf.local ~/.tmux.conf.local
 cd
 git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
