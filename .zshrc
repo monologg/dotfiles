@@ -109,3 +109,5 @@ export PYTHONIOENCODING=UTF-8
 
 # Personal NAS
 alias nas='aws --endpoint-url https://minio.monologg.synology.me --region ap-northeast-2 s3'
+
+export PATH="/home/${USER}/.local/bin:$PATH"
