@@ -37,6 +37,9 @@ ln -s -f .tmux/.tmux.conf
 git config --global user.email "adieujw@gmail.com"
 git config --global user.name "monologg"
 
+# For save hugginface hub credential
+git config --global credential.helper store
+
 # vscode as git commit editor
 git config --global core.editor "code --wait"
 
