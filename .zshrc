@@ -73,7 +73,9 @@ plugins=(
     tmux
     python
     zsh-syntax-highlighting
-    zsh-autosuggestions  
+    zsh-autosuggestions
+    docker
+    docker-compose
 )
 
 source $ZSH/oh-my-zsh.sh
