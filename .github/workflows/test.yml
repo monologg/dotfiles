@@ -13,6 +13,6 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v2
 
-      - name: test
+      - name: Test
         run: |
           sh dot_ubuntu.sh
