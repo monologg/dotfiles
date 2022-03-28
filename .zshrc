@@ -77,6 +77,7 @@ plugins=(
     docker
     docker-compose
     kubectl
+    systemd
 )
 
 source $ZSH/oh-my-zsh.sh
