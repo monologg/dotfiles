@@ -78,6 +78,7 @@ plugins=(
     docker-compose
     kubectl
     systemd
+    poetry
 )
 
 source $ZSH/oh-my-zsh.sh
