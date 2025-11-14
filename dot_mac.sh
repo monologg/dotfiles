@@ -3,7 +3,7 @@ brew update
 # sudo apt-get -y upgrade
 brew install curl tmux git-lfs tree
 sh install_powerline_font.sh
-pip3 install -U pip && pip3 install -U awscli  # For fixing awscli issue
+pip3 install -U pip
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
