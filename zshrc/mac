@@ -117,3 +117,5 @@ export PYTHONIOENCODING=UTF-8
 export NAS_URL=""
 alias nas='aws --endpoint-url $NAS_URL --region ap-northeast-2 s3'
 alias claude="claude --allow-dangerously-skip-permissions"
+alias codex="codex --dangerously-bypass-approvals-and-sandbox"
+
