@@ -118,3 +118,7 @@ export NAS_URL=""
 alias nas='aws --endpoint-url $NAS_URL --region ap-northeast-2 s3'
 
 export PATH="/home/${USER}/.local/bin:$PATH"
+
+alias claude="claude --allow-dangerously-skip-permissions"
+alias codex="codex --dangerously-bypass-approvals-and-sandbox"
+
