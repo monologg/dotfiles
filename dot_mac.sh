@@ -22,7 +22,7 @@ fi
 ln -s ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/spaceship-prompt/spaceship.zsh-theme ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/spaceship.zsh-theme
 
 # Copy .zshrc
-cp -rf .zshrc ~/.zshrc
+cp -rf zshrc/mac ~/.zshrc
 
 # Copy .tmux.conf.local
 cp -rf .tmux.conf.local ~/.tmux.conf.local
